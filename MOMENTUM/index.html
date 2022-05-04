@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Momentum</title>
+</head>
+<body>
+  <div id="weather">
+    <img class="weatherIcon">
+    <span></span>
+    <span></span>
+  </div>
+  <section class="box section1">
+    <h1>playlist</h1>
+    <div class="section__background"></div>
+  </section>
+  <section class="box section2">
+    <div class="clockAndDate">
+    <h1 id="clock">00:00</h1>
+  </div>
+    <form id="login-form" class="hidden">
+      <input id="login-input" 
+        required
+        maxlength="15"
+        type="text" 
+        placeholder="Write your name and PRESS ENTER"/>
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+    <div class="section__background"></div>
+  </section>
+  <seciton class="box section3">
+    <div>TO DO LIST</div>
+    <div id="todo-div">
+    <form id="todo-form">
+      <input
+         id="todo-input" type="text" placeholder="Write a To Do and Press Enter." required />
+    </form>
+    <ul id="todo-list">
+    </ul>
+  </div>
+    <div class="section__background"></div>
+  </seciton>
+  <footer>
+    <div id="quote">
+      <span></span><br>
+      <span></span>
+    </div>
+  </footer>
+  <script src="js/greetings.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/quotes.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/weather.js"></script>
+</body>
+</html>
+
